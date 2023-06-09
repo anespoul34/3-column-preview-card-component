@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [link](https://your-solution-url.com)
-- Live Site URL: [link](https://your-live-site-url.com)
+- Solution URL: [link](https://www.frontendmentor.io/solutions/3-column-preview-card-component-using-htmlcss-and-grid-M5pmkWvRtF)
+- Live Site URL: [link](https://3-column-preview-card-component-delta-beryl.vercel.app/)
 
 ## My process
 
