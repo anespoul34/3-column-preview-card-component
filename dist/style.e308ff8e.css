@@ -70,13 +70,6 @@ button {
   text-align: center;
   background: var(--medium);
 }
-
-button:hover {
-  background: transparent;
-  color: var(--medium);
-  border: 1px solid var(--medium);
-}
-
 .attribution {
   position: absolute;
   bottom: 5px;
@@ -129,6 +122,11 @@ main {
 .col3 button {
   color: var(--tertiary);
 }
+button:hover {
+  background: transparent;
+  color: var(--medium);
+  border: 1px solid var(--medium);
+}
 
 @media screen and (max-width: 1000px) {
   main {
@@ -144,12 +142,15 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     padding-bottom: 30px;
+    overflow-y: scroll;
+  }
+  .attribution {
+    position: inherit;
   }
   main {
     width: 100%;
-    height: auto;
+    min-height: 1260px;
     grid-template: repeat(3, 1fr) / 1fr;
-    overflow-y: scroll;
   }
   .col {
     grid-template: 80px 80px auto 70px / 1fr;
